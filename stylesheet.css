@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    background-color: #0d264f;
+    padding: 5px;
+}
+
+.header-logo {
+    color: white;
+    font-size: 25px;
+}
+
+#content {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    background-color: #66add4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#mine {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 0 0 0 auto;
+    padding: 20px;
+}
+.say{
+    margin: 0 0 0 auto;
+    margin-right:10px;
+    margin-top: 10px;
+    background-color: #40bd5f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.say-you {
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.footer {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input {
+    width: 70%;
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    border: 1px solid #e9e9ed;
+    background-color: #f6f6f6;
+}
+
+.btn {
+    padding: 6px;
+    border: none;
+    background-color: #3f84ef;
+    border-radius: 5px;
+    color: white;
+}
